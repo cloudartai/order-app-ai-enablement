@@ -1,0 +1,19 @@
+ORDER MANAGEMENT BUSINESS RULES
+
+Rule 1:
+An order with failed credit validation must be placed into Blocked status.
+
+Rule 2:
+Blocked orders cannot proceed to fulfillment until the issue is resolved.
+
+Rule 3:
+Orders with a value greater than 100,000 are classified as high-value orders.
+
+Rule 4:
+A blocked high-value order has a high business impact and should be reviewed by the Operations Team.
+
+Rule 5:
+Pending Validation means that one or more business validation checks are incomplete.
+
+Rule 6:
+Premium Delivery Service is considered business critical because delayed delivery may impact customer commitments.
